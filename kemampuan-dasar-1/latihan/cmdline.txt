@@ -1,0 +1,76 @@
+Microsoft Windows [Version 10.0.17763.316]
+(c) 2018 Microsoft Corporation. All rights reserved.
+
+C:\Users\Salnuraqidah>d:
+
+D:\>md latihan1
+
+D:\>cd latihan1
+
+D:\latihan1>md kemampuan dasar
+
+D:\latihan1>type cmdline.txt
+Salamah Nur Aqidah
+Fisika UNY 2015
+D:\latihan1>rd dasar
+
+D:\latihan1>rename cmdline.txt tugas1.txt
+
+D:\latihan1>copy tugas1.txt coba.txt /a
+        1 file(s) copied.
+
+D:\latihan1>erase kemampuan
+D:\latihan1\kemampuan\*, Are you sure (Y/N)? Y
+
+D:\latihan1>erase kemampuan
+D:\latihan1\kemampuan\*, Are you sure (Y/N)? Y
+
+D:\latihan1>erase coba.txt
+
+D:\latihan1>title CMD
+
+D:\latihan1>date
+The current date is: Fri 11/29/2019
+Enter the new date: (mm-dd-yy)
+
+D:\latihan1>dir
+ Volume in drive D is kuliah
+ Volume Serial Number is CE66-24BF
+
+ Directory of D:\latihan1
+
+11/29/2019  09:38 AM    <DIR>          .
+11/29/2019  09:38 AM    <DIR>          ..
+11/29/2019  08:56 AM    <DIR>          kemampuan
+11/29/2019  09:07 AM                35 tugas1.txt
+               1 File(s)             35 bytes
+               3 Dir(s)  78,753,632,256 bytes free
+
+D:\latihan1>attrib +s +h kemampuan
+
+D:\latihan1>dir
+ Volume in drive D is kuliah
+ Volume Serial Number is CE66-24BF
+
+ Directory of D:\latihan1
+
+11/29/2019  09:38 AM    <DIR>          .
+11/29/2019  09:38 AM    <DIR>          ..
+11/29/2019  09:07 AM                35 tugas1.txt
+               1 File(s)             35 bytes
+               2 Dir(s)  78,753,632,256 bytes free
+
+D:\latihan1>attrib -s -h kemampuan
+
+D:\latihan1>dir
+ Volume in drive D is kuliah
+ Volume Serial Number is CE66-24BF
+
+ Directory of D:\latihan1
+
+11/29/2019  09:38 AM    <DIR>          .
+11/29/2019  09:38 AM    <DIR>          ..
+11/29/2019  08:56 AM    <DIR>          kemampuan
+11/29/2019  09:07 AM                35 tugas1.txt
+               1 File(s)             35 bytes
+               3 Dir(s)  78,753,632,256 bytes free

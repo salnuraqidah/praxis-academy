@@ -1,0 +1,7 @@
+Windows PowerShell
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+PS C:\WINDOWS\system32> d:
+PS D:\> & "D:\Script\My First Script.ps1"
+Hello, Word!
+PS D:\>

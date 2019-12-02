@@ -1,0 +1,28 @@
+Windows PowerShell
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+PS C:\WINDOWS\system32> Get-ExecutionPolicy
+RemoteSigned
+PS C:\WINDOWS\system32> Set-execution policy unrestricted
+Set-execution : The term 'Set-execution' is not recognized as the name of a cmdlet, function, script file, or operable
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ Set-execution policy unrestricted
++ ~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Set-execution:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\WINDOWS\system32> Set-executionpolicy unrestricted
+
+Execution Policy Change
+The execution policy helps protect you from scripts that you do not trust. Changing the execution policy might expose
+you to the security risks described in the about_Execution_Policies help topic at
+https:/go.microsoft.com/fwlink/?LinkID=135170. Do you want to change the execution policy?
+[Y] Yes  [A] Yes to All  [N] No  [L] No to All  [S] Suspend  [?] Help (default is "N"): Y
+PS C:\WINDOWS\system32> Get-ExecutionPolicy
+Unrestricted
+PS C:\WINDOWS\system32> D:
+PS D:\> cd Scripts
+PS D:\Scripts> & "D:\scripts\FirstScript.ps1"
+Hello, Scripts!
+PS D:\Scripts>
