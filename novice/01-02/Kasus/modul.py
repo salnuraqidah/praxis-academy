@@ -1,3 +1,3 @@
-from bubbleSort import selectionSort, A
+from bubbleSort import bubbleSort, A
 b = A
 print(bubbleSort(b))
