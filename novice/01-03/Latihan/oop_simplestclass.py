@@ -1,5 +1,5 @@
 class Person:
     pass  # An empty block
 
-p = Person('hello')
+p = Person()
 print(p)
