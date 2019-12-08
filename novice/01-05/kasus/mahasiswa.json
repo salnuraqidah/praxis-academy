@@ -1,0 +1,18 @@
+{
+	"mahasiswa": {
+		"nama": "Salamah",
+		"nim": 15306141049,
+		"prodi": "Fisika",
+		"RiwayatStudi": {
+			"Semester1": "22sks",
+			"Semester2": "22sks",
+			"Semester3": "24sks",
+			"Semester4": "21sks",
+			"Semester5": "23sks",
+			"Semester6": "24sks",
+			"Semester7": "3sks",
+			"Semester8": "12sks"
+		}
+
+	}
+}

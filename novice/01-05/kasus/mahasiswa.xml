@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<mahasiswa>
+	<nama>salamah</nama>
+	<nim>15306141049</nim>
+	<prodi>fisika</prodi>
+	<riwayatStudi>
+		<semester1>22sks</semester1>
+		<semester2>22sks</semester2>
+		<semester3>24sks</semester3>
+		<semester4>21sks</semester4>
+		<semester5>23sks</semester5>
+		<semester6>24sks</semester6>
+		<semester7>3sks</semester7>
+		<semester8>12sks</semester8>
+	</riwayatStudi>
+</mahasiswa>		
+		
+		
