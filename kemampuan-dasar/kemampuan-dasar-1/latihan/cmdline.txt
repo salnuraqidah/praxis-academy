@@ -1,76 +1,87 @@
-Microsoft Windows [Version 10.0.17763.316]
+Microsoft Windows [Version 10.0.17763.914]
 (c) 2018 Microsoft Corporation. All rights reserved.
 
-C:\Users\Salnuraqidah>d:
+C:\Users\Salnuraqidah>E:
 
-D:\>md latihan1
+E:\>mkdir Praxis-Academy
 
-D:\>cd latihan1
+E:\>cd Praxis-Academy
 
-D:\latihan1>md kemampuan dasar
+E:\Praxis-Academy>mkdir kemampuan-dasar-1
 
-D:\latihan1>type cmdline.txt
-Salamah Nur Aqidah
-Fisika UNY 2015
-D:\latihan1>rd dasar
+E:\Praxis-Academy>cd kemampuan-dasar-1
 
-D:\latihan1>rename cmdline.txt tugas1.txt
+E:\Praxis-Academy\kemampuan-dasar-1>mkdir latihan
 
-D:\latihan1>copy tugas1.txt coba.txt /a
+E:\Praxis-Academy\kemampuan-dasar-1>cd latihan
+
+E:\Praxis-Academy\kemampuan-dasar-1\latihan>type hello.txt
+hello world
+
+E:\Praxis-Academy\kemampuan-dasar-1\latihan>rename hello.txt hai.txt
+
+E:\Praxis-Academy\kemampuan-dasar-1\latihan>type hai.txt
+hello world
+E:\Praxis-Academy\kemampuan-dasar-1\latihan>copy hai.txt hai-1.txt
         1 file(s) copied.
 
-D:\latihan1>erase kemampuan
-D:\latihan1\kemampuan\*, Are you sure (Y/N)? Y
+E:\Praxis-Academy\kemampuan-dasar-1\latihan>mkdir latihan-2
 
-D:\latihan1>erase kemampuan
-D:\latihan1\kemampuan\*, Are you sure (Y/N)? Y
+E:\Praxis-Academy\kemampuan-dasar-1\latihan>erase latihan-2
+E:\Praxis-Academy\kemampuan-dasar-1\latihan\latihan-2\*, Are you sure (Y/N)? Y
 
-D:\latihan1>erase coba.txt
+E:\Praxis-Academy\kemampuan-dasar-1\latihan>erase hai-1.txt
 
-D:\latihan1>title CMD
+E:\Praxis-Academy\kemampuan-dasar-1\latihan>type hai-1.txt
+The system cannot find the file specified.
 
-D:\latihan1>date
-The current date is: Fri 11/29/2019
+E:\Praxis-Academy\kemampuan-dasar-1\latihan>title cmdline
+
+E:\Praxis-Academy\kemampuan-dasar-1\latihan>date
+The current date is: Tue 12/17/2019
 Enter the new date: (mm-dd-yy)
 
-D:\latihan1>dir
- Volume in drive D is kuliah
- Volume Serial Number is CE66-24BF
+E:\Praxis-Academy\kemampuan-dasar-1\latihan>cd..
 
- Directory of D:\latihan1
+E:\Praxis-Academy\kemampuan-dasar-1>cd..
 
-11/29/2019  09:38 AM    <DIR>          .
-11/29/2019  09:38 AM    <DIR>          ..
-11/29/2019  08:56 AM    <DIR>          kemampuan
-11/29/2019  09:07 AM                35 tugas1.txt
-               1 File(s)             35 bytes
-               3 Dir(s)  78,753,632,256 bytes free
+E:\Praxis-Academy>dir
+ Volume in drive E is random
+ Volume Serial Number is 3877-3860
 
-D:\latihan1>attrib +s +h kemampuan
+ Directory of E:\Praxis-Academy
 
-D:\latihan1>dir
- Volume in drive D is kuliah
- Volume Serial Number is CE66-24BF
+12/17/2019  01:40 PM    <DIR>          .
+12/17/2019  01:40 PM    <DIR>          ..
+12/17/2019  01:41 PM    <DIR>          kemampuan-dasar-1
+               0 File(s)              0 bytes
+               3 Dir(s)  95,734,616,064 bytes free
 
- Directory of D:\latihan1
+E:\Praxis-Academy>attrib +s +h kemampuan-dasar-1
 
-11/29/2019  09:38 AM    <DIR>          .
-11/29/2019  09:38 AM    <DIR>          ..
-11/29/2019  09:07 AM                35 tugas1.txt
-               1 File(s)             35 bytes
-               2 Dir(s)  78,753,632,256 bytes free
+E:\Praxis-Academy>dir
+ Volume in drive E is random
+ Volume Serial Number is 3877-3860
 
-D:\latihan1>attrib -s -h kemampuan
+ Directory of E:\Praxis-Academy
 
-D:\latihan1>dir
- Volume in drive D is kuliah
- Volume Serial Number is CE66-24BF
+12/17/2019  01:40 PM    <DIR>          .
+12/17/2019  01:40 PM    <DIR>          ..
+               0 File(s)              0 bytes
+               2 Dir(s)  95,734,616,064 bytes free
 
- Directory of D:\latihan1
+E:\Praxis-Academy>attrib -s -h kemampuan-dasar-1
 
-11/29/2019  09:38 AM    <DIR>          .
-11/29/2019  09:38 AM    <DIR>          ..
-11/29/2019  08:56 AM    <DIR>          kemampuan
-11/29/2019  09:07 AM                35 tugas1.txt
-               1 File(s)             35 bytes
-               3 Dir(s)  78,753,632,256 bytes free
+E:\Praxis-Academy>dir
+ Volume in drive E is random
+ Volume Serial Number is 3877-3860
+
+ Directory of E:\Praxis-Academy
+
+12/17/2019  01:40 PM    <DIR>          .
+12/17/2019  01:40 PM    <DIR>          ..
+12/17/2019  01:41 PM    <DIR>          kemampuan-dasar-1
+               0 File(s)              0 bytes
+               3 Dir(s)  95,734,616,064 bytes free
+
+E:\Praxis-Academy>

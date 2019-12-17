@@ -1,1 +1,0 @@
-https://github.com/salnuraqidah/Kemampuan-Dasar-2-Praktik1
