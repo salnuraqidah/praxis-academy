@@ -1,0 +1,39 @@
+===EDA===
+A. langkah data exploration and preparation
+1. identifikasi variabel
+identifikasi variabel input dan variabel output. selanjutnya identifikasi tipe data dan kategori variabel
+
+2. Univariate Analysis
+analisis deskriptif pada satu variabel
+apakah variabel itu type katagori atau continuous
+--continuous variabel
+untuk memahami kecenderungan central dan penyebaran variabel. diukur menggunakan berbagai mestatisical metrice visualization
+----------------------------------------------------------------
+central tendency | measure of Dispersion | Visualization Method
+-----------------|-----------------------|----------------------
+mean		 |	range		 |	histogram
+median		 |	quartile	 |	Box plot
+----------------------------------------------------------------
+analisis univariate juga digunakan untuk menyoroti nilai yang hilang dan outlier
+
+--Categorical Variables
+dapat menggunakan tabel frequensi to memahami distribusi setiap kategori. untuk visualisasi dapat menggunakan chart bar
+
+3. Bi-variate Analysis
+analisis relasi dengan dua variabel yang biasanya dengan target variabel
+kita dapat melakukan analisis dua-variase untuk kombinasi variabel kategorikal dan kontinu.
+--kontinu & kontinu
+menggunakan plot scatter untuk mengetahui hubungan antara 2 variabel, hubungannya bisa linear atau non-linear
+namun plot scatter tidak menunjukkan kekuatan hubungan antara 2 variabel, maka gunakan korelasi antara -1 dan +1
+
+--kategori & Kategori
+untuk mengetahui hubungan antara 2 variabel kategori
+>>Two-way table (Tabel 2 arah)
+baris mewakili kategori satu variabel dan kolom mewakili kategori variabel lainnya. menunjukkan jumlah pengamatan yang tersedia disetiap kombinasi kategori baris dan kolom
+>>Stacked Column Chart
+metode ini lebih bentuk visual daripada two-way table
+>>Chi-Square Test
+Chi-square didasarkan pada perbedaan antara frekuensi yang diharapkan dan yang diamati dalam satu atau lebih kategori dalam tabel dua arah.
+
+--kategori & kontinu
+Kategorikal & Berkelanjutan: Sambil menjelajahi hubungan antara variabel kategori dan kontinu, kita dapat menggambar plot kotak untuk setiap tingkat variabel kategori. Jika levelnya kecil, itu tidak akan menunjukkan signifikansi statistik. Untuk melihat signifikansi statistik kita dapat melakukan uji-Z, uji-T atau ANOVA.
